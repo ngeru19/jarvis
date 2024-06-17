@@ -10,7 +10,7 @@ export default function TimeIndicator() {
   const currentTime = format(now, "HH:mm");
 
   return (
-    <div className="bg-lavender rounded-sm w-fit p-4">
+    <div className="bg-lavender rounded-lg w-fit p-4">
       <div className="flex justify-between items-center gap-20">
         <div>
           <p>{formattedDate}</p>

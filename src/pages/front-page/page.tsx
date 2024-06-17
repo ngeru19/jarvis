@@ -7,7 +7,7 @@ export default function FrontPage() {
   const greeting = getTimeOfDay(currentHour);
 
   return (
-    <main className="bg-darkViolet h-screen font-inter">
+    <main className="bg-darkViolet font-inter min-h-screen overflow-y-hidden">
       <div className="pl-36 pt-12">
         <h1 className="text-mistyRose font-bold text-3xl">{`${greeting}, Улан`}</h1>
         <div className="pt-12">
